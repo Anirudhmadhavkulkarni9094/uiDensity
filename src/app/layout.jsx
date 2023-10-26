@@ -1,6 +1,6 @@
 
 import './globals.css'
-import NavBar from './NavBar'
+import NavBar from './Navbar/NavBar'
 
 
 export const metadata = {

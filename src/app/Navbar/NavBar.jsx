@@ -1,13 +1,13 @@
 import Link from 'next/link';
 import React from 'react';
-import logo from '../../public/logo.png';
+
 import Image from 'next/image';
 
 function NavBar() {
   return (
     <div className='flex justify-around p-5 items-center overflow-hidden'>
       <div className='flex items-center'>
-        <Image src={logo} className='w-12 h-12 sm:w-14 h-14 shadow-xl rounded-xl' />
+        <Image src='/logo.png' className='w-12 h-12 sm:w-14 h-14 shadow-xl rounded-xl' width={50} height={50} />
       </div>
       <div className='hidden sm:flex gap-10 font-mono font-semibold'>
         <Link className='font-mono font-semibold' href='/Emotions' >Emotions</Link>

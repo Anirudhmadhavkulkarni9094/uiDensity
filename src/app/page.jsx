@@ -1,11 +1,11 @@
 "use client"
 import React from 'react';
-import Home from './Home';
-import Description from './Description';
-import Problems from './Problems';
-import Introduction from './Introduction'
-import Rating from './Rating'
-import Test from './Test'
+import Home from './Home/Home';
+import Description from './Description/Description';
+import Problems from './Problems/Problems';
+import Introduction from './Home/Introduction/Introduction'
+import Rating from './Rating/Rating'
+import Test from './Testing/Test'
 export default function page() {
   return (
     <>
