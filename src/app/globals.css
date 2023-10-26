@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hide the horizontal scrollbar for Webkit-based browsers */
+.problems {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none; /* For Firefox */
+    -ms-overflow-style: none; /* For Internet Explorer 11 */
+  }
+  
+  .problems::-webkit-scrollbar {
+    width: 0; /* Width of the scrollbar */
+    height: 0; /* Height of the scrollbar */
+  }
+  
+  /* Optional: Hide the vertical scrollbar as well */
+  .problems::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Color of the scrollbar thumb */
+  }
+  
+  .problems::-webkit-scrollbar-track {
+    background-color: transparent; /* Color of the scrollbar track */
+  }
+  
+  .problems-card {
+    
+    border-radius: 20px;
+    width: 30rem;
+    margin: 1rem;
+    padding: 2rem;
+  }
+  
+  .problems-card p {
+    width: 15rem;
+  }
+
+  .problems h1{
+    font-size: 2rem;
+  }
+  
+  *{
+    -webkit-user-drag: none;
+  }
