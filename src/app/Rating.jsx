@@ -9,7 +9,7 @@ function Rating() {
             <h1 className='font-bold text-5xl'>Ever wondered what others think of you?</h1>
         </div>
         <div className='mx-20 pt-10'>
-            <img src='/bar.png' className='m-auto w-full'></img>
+            <img src='/bar.png' className='m-auto w-full' alt='bar'></img>
         </div>
         <div className='flex text-xs mx-10 font-bold justify-between'>
             <motion.div
@@ -33,7 +33,7 @@ function Rating() {
             <h1 className='w-56 m-2 text-sm  text-center'>Find out where you and others see things the same way - and where not!</h1>
             </motion.div>
         </div>
-        <img src='/timeline.png'></img>
+        <img src='/timeline.png' alt='timeline'></img>
     </div>
   )
 }

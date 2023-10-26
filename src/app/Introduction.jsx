@@ -41,19 +41,19 @@ export default function Introduction() {
             }}
             transition={{ duration: 6  , type: "spring" , damping : 8}}
             >
-            <Image src='/ghost-bubble.png' width={500} height={450}></Image>
+            <Image src='/ghost-bubble.png' width={500} height={450} alt=''></Image>
         </motion.div>
         <motion.div
             initial = {{transform : "translateY(100%)"}}
             whileInView={{transform : "translateY(0%)"}}
         >
-            <Image src='/leaf.png' width={100} height={100}></Image>
+            <Image alt='' src='/leaf.png' width={100} height={100}></Image>
         </motion.div>
         <motion.div className='absolute'
             initial = {{right : 0}}
             whileInView={{right : 300 , zIndex : 10 , opacity : 0.5 }}
         >
-            <Image src='/dot.png' width={100} height={100}></Image>
+            <Image alt='' src='/dot.png' width={100} height={100}></Image>
         </motion.div>
       </div>
       
